@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="aside" id="start">
+        <aside class="move" id="start">
+            <ul>
+                <li>
+                    <a href="#start" class="same">Home</a>
+                </li>
+                <li>
+                    <a href="#travel " class="same">Travel</a>
+                </li>
+                <li>
+                    <a href="#Exp " class="same">Explortion</a>
+                </li>
+                <li>
+                    <a href="#news " class="same">News</a>
+                </li>
+            </ul>
+            <i class="fa-solid fa-x close "></i>
+
+
+        </aside>
+    </section>
+    <section class="header ">
+        <header class="m-2 ">
+            <div class="logo align-items-center ">
+                <h4 class="text-light fw-bold "> <img src="img/logo.svg " style="width: 30px;height: 30px; vertical-align: middle; " alt=" "> Planet</h4>
+            </div>
+            <i class="fa-solid fa-sliders toggle "></i>
+
+        </header>
+    </section>
+    <section class="landing ">
+        <div class="row m-2 align-items-center ">
+            <div class="col-md-6 col-lg-6 ">
+                <div class="info ">
+                    <h1>Welcome</h1>
+                    <h2>To The <img src="img/history-img-2.svg " style="width: 200px;height: 200px;position: relative;left: 40px; " alt=" "></h2>
+                    <h3>Space</h3>
+                    <button>Explore More</button>
+
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-6 ">
+                <div class="image ">
+                    <img src="img/home-img.png " class="w-100 " alt=" ">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="learn " id="Exp">
+        <div class="row align-items-center ">
+            <div class="col-md-6 col-lg-6 ">
+                <div class="image ">
+                    <img src="img/explore-img.png " alt=" ">
+                </div>
+
+            </div>
+            <div class="col-m4-6 col-lg-6 ">
+                <div class="text m-2 ">
+                    <h1 class="text-light ">Learn More</h1>
+                    <h2 style="color: hsl(25, 96%, 55%); ">Explortion More</h2>
+                    <p class="text-light ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit saepe nam inventore. Fuga officia beatae a, doloribus, possimus nam debitis nostrum eveniet quaerat ullam aliquid autem assumenda corrupti praesentium ut vel quia magnam.
+                        Repellat veniam repellendus incidunt explicabo similique necessitatibus.</p>
+                </div>
+                <div class="flex d-flex justify-content-around ">
+                    <div class="frist text-center ">
+                        <h4 class="text-light fw-bold ">Box</h4>
+                        <h5 class="text-light fw-bold ">12</h5>
+                    </div>
+                    <div class="frist text-center ">
+                        <h4 class="text-light fw-bold ">Fetures</h4>
+                        <h5 class="text-light fw-bold ">11.009320909...</h5>
+                    </div>
+                    <div class="second ">
+                        <h4 class="text-light fw-bold ">Distance</h4>
+                        <h5 class="text-light fw-bold ">62.009320909...</h5>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <section class="travel " id="travel">
+        <div class="continer text-center ">
+            <h1 class="text-light fw-bold ">Space Travel</h>
+                <h2 class="text-light fw-bold ">Historyy</h2>
+        </div>
+        <div class="content ">
+            <div class="row m-2 ">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="box mb-2 ">
+                        <div class="image ">
+                            <img src="img/history-img-1 (1).svg " class="w-100 " alt=" ">
+                        </div>
+                        <div class="text ">
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, odio dolore perferendis nostrum quia corrupti!</p>
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestiae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="box mb-2 ">
+                        <div class="image ">
+                            <img src="img/history-img-2.svg " class="w-100 " alt=" ">
+                        </div>
+                        <div class="text ">
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, odio dolore perferendis nostrum quia corrupti!</p>
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestiae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="box mb-2 ">
+                        <div class="image ">
+                            <img src="img/history-img-3.svg " class="w-100 " alt=" ">
+                        </div>
+                        <div class="text ">
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, odio dolore perferendis nostrum quia corrupti!</p>
+                            <p class="text-light fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, molestiae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end ">
+            <img src="img/travel-planet-2.svg " class="frist " alt=" ">
+            <img src="img/travel-planet-3.svg " class="second " alt=" ">
+
+        </div>
+
+    </section>
+    <section class="news " id="news">
+        <div class="continer text-center m-2 ">
+            <h1 class="text-light fw-bold ">Get Our</h1>
+            <h2 style="color: hsl(25, 96%, 55%); ">Latest News</h2>
+        </div>
+        <div class="content ">
+            <div class="row m-2 ">
+                <div class="col-md-12 ">
+                    <input type="text " placeholder="Enter Adress " name=" " id=" ">
+                    <button>Email Adress</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="end ">
+            <div class="row ">
+                <div class="col-md-6 col-lg-4 ">
+                    <a href=" ">Home</a>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <a href=" ">Travel</a>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <a href=" ">Explore</a>
+                </div>
+            </div>
+            <div class="row m-2 ">
+                <div class="col-md-12 ">
+                    <div class="icon ">
+                        <i class="fa-brands fa-facebook "></i>
+                        <i class="fa-brands fa-git "></i>
+                        <i class="fa-brands fa-github "></i>
+                        <i class="fa-brands fa-line "></i>
+                        <i class="fa-brands fa-linkedin "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer ">
+        <img src="img/footer-planet-2 (1).svg " class="frist " alt=" ">
+        <img src="img/history-planet-1 (1).svg " class="second " alt=" ">
+
+
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+    <script src="mian.js "></script>
+
+</body>
+
+</html>

@@ -1,0 +1,300 @@
+    body {
+        background-color: hsl(243, 96%, 54%);
+    }
+    
+    section aside {
+        background-image: url(img/nav-comet.svg);
+        background-size: 100% 100%;
+        background-color: hsl(243, 96%, 14%);
+        ;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        left: -330px;
+        top: 0px;
+        border-radius: 5px;
+        z-index: 10000;
+        transition: 2s;
+        ;
+    }
+    
+    section aside ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section aside li {
+        margin: 10px auto;
+        text-align: center;
+    }
+    
+    section aside ul li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        display: block;
+    }
+    
+    section .close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+    }
+    
+    section i.toggle {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+        height: 20px;
+    }
+    
+    section aside.active {
+        left: 0px;
+    }
+    /* end aside */
+    /* start header */
+    
+    section.header {
+        width: 100%;
+        background-color: hsl(238, 100%, 70%);
+        padding: 5px;
+        align-items: center;
+        position: fixed;
+        z-index: 1300;
+    }
+    
+    section header i.toggle {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    /* end header */
+    /* start landing */
+    
+    section.landing {
+        padding: 10px;
+        background-image: url(img/home-bg.svg);
+        background-size: cover;
+        width: 100%;
+        position: relative;
+        top: 50px;
+    }
+    
+    section.landing .row div.info h1 {
+        font-size: 70px;
+        color: hsl(25, 96%, 55%);
+        font-weight: bold;
+    }
+    
+    section.landing .row div.info h2 {
+        font-size: 70px;
+        color: white;
+        font-weight: bold;
+    }
+    
+    section.landing .row div.info h3 {
+        font-size: 70px;
+        color: hsl(238, 100%, 70%);
+        font-weight: bold;
+    }
+    
+    section.landing .row .image {
+        text-align: center;
+    }
+    
+    section.landing .row .image img {
+        width: 400px;
+        height: 500px;
+    }
+    
+    section.landing .row div.info button {
+        background-color: hsl(25, 96%, 55%);
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        margin: 10px;
+        transition: 1s;
+    }
+    
+    section.landing .row div.info button:hover {
+        background-color: black;
+        color: white;
+    }
+    /* end landing */
+    /* start leran */
+    
+    section.learn {
+        margin: 20px 0px;
+        position: relative;
+        top: 50px;
+    }
+    
+    section.learn .row .image {
+        text-align: center;
+    }
+    
+    section.learn .row .image img {
+        width: 400px;
+        height: 500px;
+    }
+    /* end leran */
+    /* start travel */
+    
+    section.travel {
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+        z-index: 100;
+        background-color: hsl(238, 100%, 70%);
+        position: relative;
+        top: 50px;
+    }
+    
+    section.travel .end img {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+    
+    section.travel .end img.frist {
+        top: 2%;
+        transform: translateY(-20%);
+        right: 0px;
+        z-index: -1;
+        animation: move 2s linear infinite;
+        transition: 2s;
+    }
+    
+    @keyframes move {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    section.travel .end img.second {
+        bottom: 2%;
+        transform: translateY(-10%);
+        left: 0px;
+        z-index: -1
+    }
+    /* end travel */
+    /* start news */
+    
+    section.news {
+        padding: 10px;
+        position: relative;
+        top: 50px;
+    }
+    
+    section.news .content .row input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        border: solid 2px white;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+    section.news .content .row input::placeholder {
+        color: white;
+    }
+    
+    section.news .content .row input:focus {
+        border: none;
+    }
+    
+    section.news .content .row button {
+        background-color: hsl(25, 96%, 55%);
+        padding: 3px;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        margin: 10px;
+        transition: 1s;
+        position: absolute;
+        right: 30px;
+    }
+    
+    section.news .content .row button:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    section.news .end .row a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        transition: 1s;
+    }
+    
+    section.news .end .row a:hover {
+        color: hsl(25, 96%, 55%);
+    }
+    
+    section.news .end .row .icon {
+        text-align: center;
+    }
+    
+    section.news .end .row .icon i {
+        background-color: hsl(25, 96%, 55%);
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        margin: 10px 10px;
+        cursor: pointer;
+        transition: 2s;
+    }
+    
+    section.news .end .row .icon i:hover {
+        background-color: black;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    /* end news */
+    /* start footer */
+    
+    section.footer {
+        position: relative;
+        top: 120px;
+        padding: 10px;
+        position: relative;
+    }
+    
+    section.footer img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    section.footer img.frist {
+        position: absolute;
+        right: -35px;
+        bottom: -80px;
+        animation: move 2s linear infinite;
+    }
+    
+    section.footer img.second {
+        position: absolute;
+        left: -35px;
+        bottom: -80px;
+        animation: move 2s linear infinite;
+    }
+    /* end footer */
